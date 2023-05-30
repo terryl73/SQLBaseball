@@ -1,0 +1,48 @@
+Instructions for refresh.
+
+1. Download Fangraphs projection csv file. 
+2. Point to csv file name in Import Manager
+3. Delete Marginal_Players_List Table
+4. Run Marginal_Players_C
+5. Run Marginal_Players_OF
+6. Run Marginal_Players_MI
+7. Run Marginal_Players_CR
+8. Run Salaries
+
+
+
+
+Query Running order
+
+Pct_Pts_HR = Player % of HR Pool 
+
+Total Pool HR = Sum Top HR All
+
+Top HR All = Union Top HR each Position based on FantasyPos
+	Util_Pool_HR_All
+
+Util_Pool_HR_All = Union List of Players not in top position queries
+
+FantasyPos = Assigns PosElig to C/CR/MI/U in
+	List_HR_C
+	List_HR_CR
+	List_HR_MI
+	List_HR_OF
+
+OBP_Counter - Calculates marginal points based on Avg OBP (0.333)
+
+	
+	
+Marginal_Players - Determines Marginal player and value at each position
+        Marginal_Players_C
+	Marginal_Players_MI
+	Marginal_Players_OF
+	Marginal_Players_CR
+
+Player_Value_Above_Replacement - Calculates 
+
+
+
+
+https://www.mastersball.com/free/PlayerValuation.pdf
+

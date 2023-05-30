@@ -1,0 +1,11 @@
+
+
+Minimal ABs 450
+
+Minimal PAs 500
+
+OBP Rank 113 = 0.338
+
+Min OBP 320: Used so none of the top players have negative OBs
+
+
